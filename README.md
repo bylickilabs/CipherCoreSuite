@@ -1,2 +1,1 @@
-# CipherCoreSuite
-Secure Encryption and Analytics Desktop Application
+Coming Soon...
