@@ -1,0 +1,34 @@
+name: CipherCore Suite Release
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  build-release:
+    runs-on: windows-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten installieren
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Release Build erstellen
+        run: |
+          pyinstaller --noconfirm --clean --windowed --onefile --name CipherCoreSuite --icon assets/ciphercore.ico --version-file version_info.txt run.py
+
+      - name: Release Artefakt hochladen
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/CipherCoreSuite.exe
