@@ -1,14 +1,12 @@
 # CipherCore Suite
 
-![Build](https://img.shields.io/github/actions/workflow/status/bylickilabs/CipherCoreSuite/ci.yml?label=CipherCore%20Build&logo=github)
-![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python&logoColor=white)
 ![MIT License](https://img.shields.io/github/license/bylickilabs/CipherCoreSuite?label=MIT%20License)
 ![Windows](https://img.shields.io/badge/Desktop-Windows-0078D6?logo=windows&logoColor=white)
 ![Security](https://img.shields.io/badge/Security-Cryptography-darkred)
 ![Analytics](https://img.shields.io/badge/Analytics-NumPy%20%26%20SciPy-013243?logo=numpy&logoColor=white)
 ![State](https://img.shields.io/badge/State-Enterprise%20Analytics-purple)
 ![Last Commit](https://img.shields.io/github/last-commit/bylickilabs/CipherCoreSuite?label=Last%20Commit)
-[![CipherCore Suite Release](https://github.com/bylickilabs/CipherCoreSuite/actions/workflows/main.yml/badge.svg)](https://github.com/bylickilabs/CipherCoreSuite/actions/workflows/main.yml)
 
 ### Deutsch
 • [CipherCore Suite](#ciphercore-suite)  
