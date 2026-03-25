@@ -67,6 +67,10 @@ if exist dist rmdir /s /q dist
 if exist "%APP_EXE%.spec" del /f /q "%APP_EXE%.spec"
 
 echo.
+echo [INFO] Python Version:
+python --version
+
+echo.
 echo [INFO] Abhaengigkeiten werden installiert bzw. aktualisiert...
 python -m pip install --upgrade pip
 if errorlevel 1 (
@@ -96,7 +100,7 @@ echo.
 echo [INFO] Build wird gestartet...
 echo.
 
-pyinstaller ^
+python -m PyInstaller ^
   --noconfirm ^
   --clean ^
   --windowed ^
@@ -104,6 +108,13 @@ pyinstaller ^
   --name "%APP_EXE%" ^
   %USE_ICON% ^
   --version-file "%VERSION_FILE%" ^
+  --exclude-module torch ^
+  --exclude-module functorch ^
+  --exclude-module tensorflow ^
+  --exclude-module matplotlib ^
+  --exclude-module pandas ^
+  --exclude-module pyarrow ^
+  --exclude-module sqlalchemy ^
   "%MAIN_FILE%"
 
 if errorlevel 1 (
