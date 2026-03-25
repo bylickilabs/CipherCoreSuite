@@ -3,7 +3,10 @@ name: CipherCore Suite Release
 on:
   release:
     types:
-      - created
+      - published
+
+permissions:
+  contents: write
 
 jobs:
   build-release:
@@ -21,12 +24,12 @@ jobs:
       - name: Abhängigkeiten installieren
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install pyinstaller
+          python -m pip install -r requirements.txt
+          python -m pip install pyinstaller
 
       - name: Release Build erstellen
         run: |
-          pyinstaller --noconfirm --clean --windowed --onefile --name CipherCoreSuite --icon assets/ciphercore.ico --version-file version_info.txt run.py
+          python -m PyInstaller --noconfirm --clean --windowed --onefile --name CipherCoreSuite --icon assets/ciphercore.ico --version-file version_info.txt --exclude-module torch --exclude-module functorch --exclude-module tensorflow --exclude-module matplotlib --exclude-module pandas --exclude-module pyarrow --exclude-module sqlalchemy run.py
 
       - name: Release Artefakt hochladen
         uses: softprops/action-gh-release@v2
