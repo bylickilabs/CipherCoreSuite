@@ -1,0 +1,47 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '040704B0',
+        [
+          StringStruct('CompanyName', 'Thorsten Bylicki'),
+          StringStruct('FileDescription', 'CipherCore Suite - Desktop Anwendung für Verschlüsselung, Datenschutz und Sicherheitsanalyse'),
+          StringStruct('FileVersion', '1.0.0.0'),
+          StringStruct('InternalName', 'CipherCoreSuite'),
+          StringStruct('LegalCopyright', 'Copyright (c) Thorsten Bylicki. Alle Rechte vorbehalten.'),
+          StringStruct('OriginalFilename', 'CipherCoreSuite.exe'),
+          StringStruct('ProductName', 'CipherCore Suite'),
+          StringStruct('ProductVersion', '1.0.0.0'),
+          StringStruct('Comments', 'Offizielles GitHub Profil: https://github.com/bylickilabs')
+        ]
+      ),
+      StringTable(
+        '040904B0',
+        [
+          StringStruct('CompanyName', 'Thorsten Bylicki'),
+          StringStruct('FileDescription', 'CipherCore Suite - Secure Encryption and Analytics Desktop Application'),
+          StringStruct('FileVersion', '1.0.0.0'),
+          StringStruct('InternalName', 'CipherCoreSuite'),
+          StringStruct('LegalCopyright', 'Copyright (c) Thorsten Bylicki. All rights reserved.'),
+          StringStruct('OriginalFilename', 'CipherCoreSuite.exe'),
+          StringStruct('ProductName', 'CipherCore Suite'),
+          StringStruct('ProductVersion', '1.0.0.0'),
+          StringStruct('Comments', 'Official GitHub profile: https://github.com/bylickilabs')
+        ]
+      )
+    ]),
+    VarFileInfo([
+      VarStruct('Translation', [1031, 1200, 1033, 1200])
+    ])
+  ]
+)
