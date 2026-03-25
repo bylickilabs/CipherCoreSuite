@@ -8,6 +8,7 @@
 ![Analytics](https://img.shields.io/badge/Analytics-NumPy%20%26%20SciPy-013243?logo=numpy&logoColor=white)
 ![State](https://img.shields.io/badge/State-Enterprise%20Analytics-purple)
 ![Last Commit](https://img.shields.io/github/last-commit/bylickilabs/CipherCoreSuite?label=Last%20Commit)
+[![CipherCore Suite Release](https://github.com/bylickilabs/CipherCoreSuite/actions/workflows/main.yml/badge.svg)](https://github.com/bylickilabs/CipherCoreSuite/actions/workflows/main.yml)
 
 ### Deutsch
 • [CipherCore Suite](#ciphercore-suite)  
