@@ -2,8 +2,6 @@
 
 [![VirusTotal .executable Check](https://github.com/user-attachments/assets/557020d7-f6a8-4c05-8372-6ef494152edf)](https://www.virustotal.com/gui/file/c1d9f0cbec8bf71694c19b6c5d2212250ad39ef43f0555cbfd8ad926817f26d6)
 
----
-
 ![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python&logoColor=white)
 ![MIT License](https://img.shields.io/github/license/bylickilabs/CipherCoreSuite?label=MIT%20License)
 ![Windows](https://img.shields.io/badge/Desktop-Windows-0078D6?logo=windows&logoColor=white)
@@ -11,6 +9,8 @@
 ![Analytics](https://img.shields.io/badge/Analytics-NumPy%20%26%20SciPy-013243?logo=numpy&logoColor=white)
 ![State](https://img.shields.io/badge/State-Enterprise%20Analytics-purple)
 ![Last Commit](https://img.shields.io/github/last-commit/bylickilabs/CipherCoreSuite?label=Last%20Commit)
+
+---
 
 ### Deutsch
 • [CipherCore Suite](#ciphercore-suite)  
