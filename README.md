@@ -2,7 +2,7 @@
 
 [![VirusTotal .executable Check](https://github.com/user-attachments/assets/557020d7-f6a8-4c05-8372-6ef494152edf)](https://www.virustotal.com/gui/file/c1d9f0cbec8bf71694c19b6c5d2212250ad39ef43f0555cbfd8ad926817f26d6)
 
-| Algorithmus | Hashwert                                                                 |
+| Algorithmus | Hash                                                                 |
 |------------|-------------------------------------------------------------------------|
 | MD5        | ff6405d84a406c291813a0be7fcbf4b9                                        |
 | SHA1       | 6936378648f17face5d58733a3b961df8fbb3ec4                                |
