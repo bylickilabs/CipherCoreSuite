@@ -2,6 +2,13 @@
 
 [![VirusTotal .executable Check](https://github.com/user-attachments/assets/557020d7-f6a8-4c05-8372-6ef494152edf)](https://www.virustotal.com/gui/file/c1d9f0cbec8bf71694c19b6c5d2212250ad39ef43f0555cbfd8ad926817f26d6)
 
+| Algorithmus | Hashwert                                                                 |
+|------------|-------------------------------------------------------------------------|
+| MD5        | ff6405d84a406c291813a0be7fcbf4b9                                        |
+| SHA1       | 6936378648f17face5d58733a3b961df8fbb3ec4                                |
+| SHA256     | c1d9f0cbec8bf71694c19b6c5d2212250ad39ef43f0555cbfd8ad926817f26d6        |
+| SHA512     | 00d8436d92381b294352a9703eb82a68bfa6205e5adb3b1a2a90d1c03f877e85df9493b084d11a8961d0ddfda144523d6eca76ea7c948036297eed3e805dd702 |
+
 ![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python&logoColor=white)
 ![MIT License](https://img.shields.io/github/license/bylickilabs/CipherCoreSuite?label=MIT%20License)
 ![Windows](https://img.shields.io/badge/Desktop-Windows-0078D6?logo=windows&logoColor=white)
